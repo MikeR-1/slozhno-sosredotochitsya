@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {         
+:root {
   --accent-color: #ff0070;
   --bg-color: #000028;
   --text-color: #f1b2ce;
@@ -14,7 +14,7 @@
   --nav-hover-color: rgba(255, 0, 112, .4);
   --header-text-shadow: 4px 4px 0px #ff0070;
   --footer-text-shadow: 2px 2px 0px #ff0070;
-  --font-size: 18px;                                        
+  --font-size: 18px;
   --text-line-height: 130%;
   --nav-gap: 10px;
   --small-gap: 10px;
