@@ -3,7 +3,7 @@
 .page {
   background: center / cover url(../images/cover-image-dark.png) var(--bg-color);
   background-attachment: fixed;
-  line-height: var(--text-line-height);
+  /*line-height: var(--text-line-height);*/
 }
 
 .header {
@@ -231,7 +231,7 @@
     border-inline-end: 1px solid var(--decor-color);
     border-block-start: 1px solid var(--decor-color);
     inset-inline-end: var(--medium-gap);
-    /*inset-block-start: var(--medium-gap);*/
+    inset-block-start: var(--medium-gap);
   }
 
   .decorated-zone::after {
