@@ -9,7 +9,10 @@
   --nav-color: #ff0070;
   --main-heading-color:#000028;
   --section-heading-color: #ff0070;
+  --decor-color: #ff0070;
+  --section-title-color: #ff0070;
   --header-title-color: #db00ff;
+  --section-title-color: #353430;
   --footer-title-color: #db00ff;
   --nav-hover-color: rgba(255, 0, 112, .4);
   --header-text-shadow: 4px 4px 0px #ff0070;
@@ -17,17 +20,18 @@
   --font-size: 18px;
   --text-line-height: 130%;
   --nav-gap: 10px;
-  --small-gap: 10px;
-  --medium-gap: 20px;
-  --small-content-gap: 50px;
-  --medium-content-gap: 80px;
+  --main-gap: 50px;
+  --paddings: 10px;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /*размер шрифта для мобильных*/
   --footer-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /*размер шрифта для мобильных*/
 }
 
 @media (width >= 768px) {
   :root {
+    --main-gap: 80px;
+    --paddings: 20px;
     --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /*размер шрифта для планшета и десктопа*/
     --footer-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /*размер шрифта для планшета и десктопа*/
+    
   }
 }
